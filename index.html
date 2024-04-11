@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link  rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><h1>Harsh</h1></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main id="home">
+        <div class="text" data-aos="fade-right">
+            <h1>Hi,</h1>
+            <h1>I'am <span class="blue">Harsh Patel</span></h1>
+            <h1>Web Developer</h1>
+            <div class="image" data-aos="fade-left">
+                <img src="profile.webp" alt="Me"/>
+            </div>
+        </div>
+    </main>
+    <section id="about">
+        <div class="aboutme" data-aos="fade-up-right">
+            <h2>About Me:</h2>
+            <p>My Name is Harsh Patel and I am a Web developer from Ahmedabad, Gujarat, India. I have completed my Btec in Information of Information.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates perferendis nihil quo id assumenda reprehenderit enim illo magni quis, vero ad ipsam! Natus impedit officia autem<br> in laboriosam, nemo voluptates maiores earum perferendis ullam eum quasi, quas voluptatem voluptas.</p>
+        </div>
+    </section>
+</header>
+<section id="skills">
+    <div class="container" data-aos="zoom-in-up">
+        <div class="skill-box">
+            <h1>Skills</h1>
+            <br>
+            <span class="title">HTML</span>
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">CSS</span>
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">JavaScript</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">30%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Php</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="work">
+    <div class="work">
+        <h1>Work Project</h1>
+    </div>
+    <div class="box" data-aos="fade-down-right">
+        <img src="shooping app.png" alt="shopping app" />
+         <h3>E-commerce website for Clothes.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta mollitia dolor eveniet quae, <br>maiores dolores natus. Adipisci beatae saepe officia!</p>
+    </div>
+
+    <div class="box1" data-aos="fade-down-left">
+        <img src="Ganpat_University_Logo.png" alt="logo" />
+         <h3>Ganpat University Demo  Website</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia libero nulla delectus numquam dignissimos qui magnam.<br> Nesciunt asperiores dolorem nihil?</p>
+    </div>
+</section>
+
+<section id="contact" class="cont" data-aos="flip-left">
+<div class="Contact">
+    <br>
+    <h1>Contact Me</h1>
+    <br>
+    <a href="#" class="fa fa-google" style="font-size:30px"></a> harshpatel@gmail.com<br>
+    <i class="fa fa-phone" style="font-size:30px"><small>91+9313877081</small></i>
+    <br><br><br>
+    <a href="#" class="fa fa-facebook" style="font-size:30px"></a>      
+    <a href="#" class="fa fa-twitter" style="font-size:30px"></a>
+    <a href="#" class="fa fa-linkedin" style="font-size:30px"></a>
+    <a href="#" class="fa fa-instagram" style="font-size:30px"></a>
+</div>
+<div class="input">
+    <form action="" method="get">  
+        <input type="text"  name="name" placeholder=" Your Name" required/><br>
+        <input type="email"  name="email" placeholder=" Your Email" required/><br>
+        <textarea name="message" placeholder="Your Message" required></textarea><br>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+</section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
